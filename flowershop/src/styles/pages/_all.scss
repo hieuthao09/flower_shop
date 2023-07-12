@@ -5,12 +5,14 @@
 @import "include_responsive";
 html, body {
     margin: 0;
+    scroll-behavior: smooth;
 }
-    
 *{
     font-family: 'Nunito Sans', sans-serif;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
 }
 
 .container{

@@ -3,10 +3,11 @@
 
 .footer{
     background: map-get($theme-color, "footer" );
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .footer-top{
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;

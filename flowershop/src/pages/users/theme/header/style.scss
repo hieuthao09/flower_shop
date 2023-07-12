@@ -1,6 +1,8 @@
 @use "sass:map";
 @import "styles/pages/theme";
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nunito+Sans:opsz@6..12&family=Rubik+Dirt&display=swap');
+
 
 .header_top{
     background: map-get($theme-color,  "header-top" );
@@ -79,6 +81,7 @@
     height: 600px;
     user-select: none;
     .text{
+        font-family: Lora,serif;
         padding: 15% 5%;
         h1, h2, h3,p {
             margin-bottom: 7px;

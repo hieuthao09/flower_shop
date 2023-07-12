@@ -1,4 +1,4 @@
-import HomePage from "./pages/users/homePage";
+import BodyPage from "./pages/users/bodyPage";
 import ProfilePage from "./pages/users/profilePage";
 import MaterLayout from "./pages/users/theme/masterLayout";
 import { ROUTERS } from "./utils/router";
@@ -7,12 +7,12 @@ const renderUserRouter = () =>{
     const userRouters = [
         {
             path: ROUTERS.USER.HOME,
-            component: <HomePage />
+            component: <BodyPage />
         },
         {
             path: ROUTERS.USER.PROFILE,
             component: <ProfilePage />
-        },
+        }
     ]
     return(
     <MaterLayout>
