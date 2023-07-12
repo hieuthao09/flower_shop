@@ -1,0 +1,37 @@
+@use "sass:map";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import "theme";
+@import "responsive";
+@import "include_responsive";
+html, body {
+    margin: 0;
+}
+    
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 15px ;
+    padding-right: 15px;
+    //background: map.get($theme-color, "main");
+    margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.col-3{
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.img
+    {
+        width: 100px;
+        height: 50px;
+    }

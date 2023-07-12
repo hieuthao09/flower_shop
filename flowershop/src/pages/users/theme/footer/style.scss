@@ -1,0 +1,41 @@
+@use "sass:map";
+@import "styles/pages/theme";
+
+.footer{
+    background: map-get($theme-color, "footer" );
+    margin-top: 30px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        align-items: center;
+        list-style: none;
+        li{
+            font-size: map-get($theme-size,  "header-font-size" );
+            color: map.get($theme-color,"normal-text");
+            display: flex;
+            align-items: center;
+            padding: 2px;           
+        }
+       
+
+    }
+    .title{
+        li:first-child{
+            font-weight: bold;
+            padding-bottom: 20px;
+            height: 50px;
+            
+        }
+    }
+    .end-title{
+        height: 150px;
+    }
+}
+.footer-end{
+    margin: 0 auto;
+    padding: 20px 0px;
+}

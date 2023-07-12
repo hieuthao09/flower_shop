@@ -1,0 +1,80 @@
+@include Responsive($DESKTOP){
+    .col-md-6{
+        flex:  0 0 50%;
+        max-width: 50%;
+    }
+}
+@include Responsive($MEDIUM_DEVICE){ 
+    .col-md-6{
+        flex:  0 0 46%;
+        max-width: 60%;
+        background: red;
+    }
+}
+
+
+@include Responsive($SMALL_DEVICE){
+    .col-md-6{
+        flex:  0 0 100%;
+        max-width: 100%;
+        background: yellow;
+    }
+    .header_top_left{
+        display: flex;
+        justify-content: center;
+        ul{
+            align-items: center;
+        }
+    }
+    .header_top_right{
+        justify-content: center;
+    }
+    .header_bottom{
+        display: block;
+        justify-content: center;
+        .menu{
+            ul{
+                display: block;
+                justify-content: center;
+            }
+        }
+    }
+}
+@include Responsive($WIDE_MOBILE){
+    .col-md-6{
+        flex:  0 0 80%;
+        max-width: 100%;
+        background: blanchedalmond;
+    }
+   
+}
+@include Responsive($TABLET_DEVICE){
+    .col-md-6{
+        flex:  0 0 100%;
+        max-width: 45%;
+    }
+}
+@include Responsive($PHONE_DEVICE){
+    .col-md-6{
+        flex:  0 0 100%;
+        max-width: 45%;
+    }
+    .header_top_left{
+        ul{
+            display: block;
+            li{
+                display: block;
+                padding-bottom: 15px;
+                padding-left: 35px;
+               
+            }
+            li:last-child{
+                padding-left: 70px;
+            }
+        }
+    }
+    .header_top_right{
+        justify-content: center;
+        padding-left: 70px;
+    }
+}
