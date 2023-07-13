@@ -1,0 +1,28 @@
+@import "styles/pages/theme";
+
+.body-top{
+    margin: 3rem 0;
+    
+}
+img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.Arrow{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    border-radius: 5rem;
+    object-fit: cover;
+    background: grey;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}

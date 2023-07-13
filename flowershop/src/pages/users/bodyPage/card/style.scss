@@ -1,0 +1,96 @@
+/* this is the style for the container inside the app.js */
+/* you can remove it and just use the card CSS */
+@use "sass:map";
+@import "styles/pages/theme";
+.container-card {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //  background: rgb(75, 53, 118);
+    //background:   map-get($theme-color,  "container-card" );
+    font-family: "Roboto", sans-serif;
+    gap: 20px;
+  }
+  /* ======================================================== */
+  .card {
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 1rem;
+    width: 13rem;
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background:  map-get($theme-color,  "header-top" );
+    transition: all 0.1s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .sneaker-img {
+    position: relative;
+    width: 10rem;
+    height: 15rem;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+  .title,
+  .card p {
+    width: 11em;
+    color: black;
+  }
+  .title{   
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .sizes-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .sizes-box li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(220, 220, 220);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .sizes-box li:hover {
+    background-color: rgb(134, 134, 134);
+  }
+  .button-box {
+    width: 100%;
+  }
+  .purchase {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: rgba(248, 177, 60, 1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .purchase:hover {
+    background-color: rgb(222, 157, 54);
+  }

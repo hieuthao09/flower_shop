@@ -1,3 +1,12 @@
+# Used
+<p>npm i swiper or yarn add swiper</p>
+<p>npm i react-router-dom or yarn add react-router-dom</p>
+<p>npm install react-slick --save or npm install slick-carousel</p> 
+<p>yarn add react-slick</p>
+<p>yarn add react-icons</p>
+<p>yarn add sass</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

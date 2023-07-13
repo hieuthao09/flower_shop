@@ -1,8 +1,18 @@
 
 $theme-color:(
-    "header-top": #dcdedc,
+    "header-top": linear-gradient(
+        219deg,
+        #ee9ca7 15%, #ffdde1 33%
+      ),
     "normal-text": #1C1C1C,
-    "footer": #dcdedc,
+    "footer": linear-gradient(
+        219deg,
+        #ee9ca7 15%, #ffdde1 33%
+      ),
+      "container-card": linear-gradient(
+        219deg,
+        #355c7d 15%, #6c5b7b 35%, #c06c84 50%
+      ),
 );
 $theme-size : (
     "header-font-size": 20px,
