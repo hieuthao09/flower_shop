@@ -227,18 +227,18 @@
     .col-3{
         flex: 0 0 100%;
         max-width: 100%;
-        margin-left: 3rem ;
+        margin: 0;
     }
     .col-12{
         flex: 0 0 100%;
         max-width: 100%;
+        margin: 0;
     }
     .header_top_left{
         ul{
             display: block;
             align-items: center;
             justify-content: center;
-            padding-left: 1.5rem;
             li{
                 padding-bottom: 1rem;
             }
