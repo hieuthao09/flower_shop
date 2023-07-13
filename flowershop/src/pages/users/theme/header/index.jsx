@@ -61,7 +61,7 @@ const Header = () => {
                             <li>BLOG</li>
                         </ul>
                     </div>
-                    <div className="col-12 bag">
+                    <div className="col-3 col-12 bag">
                         <ul>
                             <li><IoBagHandleOutline/></li>
                             <li>CART({formatter(20000)}) </li>

@@ -6,37 +6,3 @@
     margin-top: 3rem;
 }
 
-.footer-top{
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ul{
-        align-items: center;
-        list-style: none;
-        li{
-            font-size: map-get($theme-size,  "header-font-size" );
-            color: map.get($theme-color,"normal-text");
-            display: flex;
-            align-items: center;
-            padding: 2px;           
-        }
-       
-
-    }
-    .title{
-        li:first-child{
-            font-weight: bold;
-            padding-bottom: 20px;
-            height: 50px;
-            
-        }
-    }
-    .end-title{
-        height: 150px;
-    }
-}
-.footer-end{
-    margin: 0 auto;
-    padding: 20px 0px;
-}

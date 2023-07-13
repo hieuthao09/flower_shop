@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="container" >
                     <div className="row footer-top">
                     <div className="col-3 ">
-                    <ul className="title">
+                    <ul className="title-footer">
                         <li>
                                CUSTOMER SERVICE
                             </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-3">
-                    <ul className="title">
+                    <ul className="title-footer">
                     <li>
                                COMPANY
                             </li>
@@ -56,7 +56,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-3">
-                        <ul className="title">
+                        <ul className="title-footer">
                             <li>SOCIAL MEDIA</li>
                         </ul>
                     <ul className="end-title">
@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
                 <div className="row">
                         <div className="footer-end">
-                            © 2018 Q code Interactive, All Rights Reserved
+                            © 2018 Q code Interactive<br/> All Rights Reserved
 
                         </div>
                     </div>
