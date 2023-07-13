@@ -12,7 +12,7 @@ const Header = () => {
          <div className="header_top">
         <div className="container">
              <div className="row">
-                    <div className="col-6 col-md-6 header_top_left_pd header_top_left">
+                    <div className="col-6 header_top_left_pd header_top_left">
                         <ul>
                             <li>
                                 <RiMailLine/>
@@ -23,7 +23,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-6 col-md-6 header_top_right ">
+                    <div className="col-6 header_top_right ">
                         <ul>
                             <li>
                             <Link to={""}><RiFacebookBoxLine/></Link>
@@ -46,13 +46,14 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
         <div className="container">
-                <div className="row header-bottom">
-                    <div className="col-3 col-md-6">
+        <div className="row header-bottom header-bottom-12">
+                    <div className="col-3 col-12">
                         <img  alt="" src={logo} className="img"/>
                     </div>
-                    <div className="col-3 menu col-md-6">
+                    <div className="col-3 col-12 menu">
                         <ul>
                             <li>HOME</li>
                             <li>SHOP</li>
@@ -60,7 +61,7 @@ const Header = () => {
                             <li>BLOG</li>
                         </ul>
                     </div>
-                    <div className="col-3 col-md-6">
+                    <div className="col-12 bag">
                         <ul>
                             <li><IoBagHandleOutline/></li>
                             <li>CART({formatter(20000)}) </li>

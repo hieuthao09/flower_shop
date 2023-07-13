@@ -34,7 +34,7 @@ const BodyPage = () => {
       <div className="container">
         <Slider {...settings} className="body-top">
           <div>
-            <img src={h1} alt="h1" />
+            <img src={h1} alt="h1"  />
           </div>
           <div>
           <img src={h5} alt="h2" />
